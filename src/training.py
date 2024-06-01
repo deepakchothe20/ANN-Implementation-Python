@@ -9,6 +9,8 @@ from src.utils.model import create_model, save_model
 
 import argparse
 
+
+
 def training(config_path):
     config = read_config(config_path)
     
